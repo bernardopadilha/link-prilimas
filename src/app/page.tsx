@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/logo-title.svg" type="image/x-icon" />
         <title>Pricila Limas Confeitaria</title>
+        <link rel="shortcut icon" href="/logo.svg" type="image/x-icon" />
       </Head>
 
       <main className="w-full min-h-screen py-11 bg-mobile  bg-no-repeat bg-cover flex flex-col justify-between items-center">
@@ -21,7 +21,9 @@ export default function Home() {
               />
             </div>
             <h1 className="mt-4 font-semibold text-white bg-[#C75466] text-center rounded-lg animate-bounce hover:bg-[#C75466]/80">
-              <a href="https://www.instagram.com/pricila.limas/">@prilimas</a>
+              <a href="https://www.instagram.com/pricila.limas/">
+                @pricila.limas
+              </a>
             </h1>
           </div>
 
@@ -56,7 +58,7 @@ export default function Home() {
                   height={24}
                   className="absolute left-0 top-1/2 -translate-y-1/2"
                 />
-                Whatsapp
+                WhatsApp
               </a>
             </button>
 
