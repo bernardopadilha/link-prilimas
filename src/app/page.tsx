@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/logo-title.svg/" type="image/x-icon" />
+        <link rel="shortcut icon" href="/logo-title.svg" type="image/x-icon" />
         <title>Pricila Limas Confeitaria</title>
       </Head>
 
@@ -62,7 +62,7 @@ export default function Home() {
 
             <button className="bg-[#C75466] w-[300px] h-[38px] flex items-center justify-between px-2 rounded-[20px] border border-white text-white text-lg ">
               <a
-                href="https://drive.google.com/file/d/1Qmp9dtkIDo9QsFx_iqpYgWZUI1drtPC4/view"
+                href="https://drive.google.com/file/d/1PCLXIICzvsVCFNErtzPcYmMOKPcB42mt/view?usp=drive_link"
                 className="w-full flex items-center justify-center relative"
               >
                 <Image
@@ -82,7 +82,7 @@ export default function Home() {
 
         <div className="w-full flex flex-col items-center absolute bottom-0 left-0">
           <div className="w-full h-[2px] bg-gradient-to-r from-[#C75466] mt-3"></div>
-          <Image alt="" src={"/footer.svg"} width={136} height={63} />
+          <Image alt="" src={"/footer.svg"} width={150} height={126} />
         </div>
       </main>
     </>
