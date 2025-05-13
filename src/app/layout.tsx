@@ -10,6 +10,10 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Pricila Limas Confeitaria",
   description: "Feito por Bernardo Alves Padilha",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

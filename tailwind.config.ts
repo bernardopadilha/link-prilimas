@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         mobile: "url('/background-mobile.svg')",
+        fundo: "url('/fundo.png')",
       },
     },
   },
