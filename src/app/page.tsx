@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { MapPinIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -27,18 +28,25 @@ export default function Home() {
           </div>
 
           <div className="z-50 flex items-center flex-col gap-4 w-full">
-            <div className="relative flex items-center bg-white gap-4 py-4 px-2.5 rounded-md border-b-4 border-[#EFE0D2] max-w-96 w-full">
+            <Link 
+              href="/cardapio.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="relative flex items-center bg-white gap-4 py-4 px-2.5 rounded-md border-b-4 border-[#EFE0D2] max-w-96 w-full"
+            >
               <div className="size-16 rounded-[10px] bg-[#EFE0D2] z-50 relative flex items-center justify-center px-1 border-2 border-white">
                 <Image src="/logo-large.png" alt="Pricila Limas" width={50} height={70} />
               </div>
 
               <div className="text-center space-y-1">
                 <p className="text-lg text-[#B27F76]">Catálogo de produtos</p>
-                {/* <p className="text-sm text-[#B27F76]">clique aqui!</p> */}
               </div>
-            </div>
+            </Link>
 
-            <div className="relative flex items-center bg-white gap-4 py-4 px-2.5 rounded-md border-b-4 border-[#EFE0D2] max-w-96 w-full">
+            <Link 
+              href={'https://wa.link/nfpcuf'} 
+              className="relative flex items-center bg-white gap-4 py-4 px-2.5 rounded-md border-b-4 border-[#EFE0D2] max-w-96 w-full"
+            >
               <div className="size-16 rounded-[10px] z-50 relative flex items-center justify-center px-1 border-2 border-white">
                 <Image src="/whatsapp.svg" alt="WhatsApp Logo" fill />
               </div>
@@ -46,7 +54,7 @@ export default function Home() {
               <div className="text-center ">
                 <p className="text-lg text-[#B27F76]">Faça seu pedido</p>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </main>
